@@ -24,7 +24,7 @@ payload = {
 }
 
 # Backend URL
-BACKEND_URL = "http://127.0.0.1:8000/predict"
+BACKEND_URL = "https://insurance-backend-api.onrender.com/predict"
 # Function: Call backend with retry + long timeout
 def call_backend_with_retry(data, retries=3, timeout=40):
     for attempt in range(retries):
