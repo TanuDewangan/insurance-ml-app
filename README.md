@@ -95,27 +95,6 @@ This project demonstrates a **production-ready ML lifecycle**, from data preproc
 
 ---
 
-## 🏗️ Project Architecture
-
-insurance-ml-app/
-│
-├── backend/
-│ ├── main.py
-│ ├── model.pkl
-│ ├── columns.pkl
-│ ├── requirements_backend.txt
-│
-├── frontend/
-│ ├── app.py
-│ ├── requirements_frontend.txt 
-│
-├── .github/workflows/
-│ ├── ci.yml
-│
-├── README.md
-
----
-
 ## 🧩 Backend – FastAPI
 
 ### API Endpoints
@@ -235,4 +214,6 @@ streamlit run app.py
 **Tanu Dewangan**  
 Machine Learning | Data Science | End-to-End ML Systems
 
-🔗 GitHub: https://github.com/TanuDewangan
+🔗 GitHub: https://github.com/TanuDewangan 
+
+---
