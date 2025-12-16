@@ -39,16 +39,20 @@ This project demonstrates a **production-ready ML lifecycle**, from data preproc
 - `charges`
 
 ### 🔹 Final Feature Set
-age, sex, bmi, children, smoker,
-bmi_smoker_numeric,
-region_southeast,
-bmi_category_Normal,
-bmi_category_Overweight,
-bmi_category_Obese,
-AgeGroup_Senior 
+age  
+sex  
+bmi  
+children  
+smoker  
+bmi_smoker_numeric  
+region_southeast  
+bmi_category_Normal  
+bmi_category_Overweight  
+bmi_category_Obese  
+AgeGroup_Senior
 
 
-### 🔹 Feature Engineering
+### 🔹 Data Cleaning & Feature Engineering
 - One-hot encoding for categorical features
 - BMI category bucketing
 - Smoker–BMI interaction feature
@@ -58,10 +62,12 @@ AgeGroup_Senior
 
 ## 🤖 Model Training & Evaluation
 
-### Models Evaluated
+### Modeling
 - Linear Regression
 - Random Forest Regressor
 - **XGBoost Regressor (Final)**
+- Hyperparameter tuning
+- Cross-validation
 
 ### Final Model Performance
 - **R² Score ≈ 90%**
@@ -179,7 +185,19 @@ streamlit run app.py
 
 ---
 
+## 🎯 Resume-Ready Highlights
+
+- Built an end-to-end **insurance cost prediction system** using XGBoost with ~90% R² score  
+- Designed and deployed a **FastAPI backend** for real-time inference  
+- Developed an interactive **Streamlit frontend** for user inputs and predictions  
+- Implemented **CI/CD pipelines using GitHub Actions** for automated deployment  
+- Deployed scalable services on **Render**, handling cold-start and retry logic
+
+---
+
 ## 👤 Author
 
 **Tanu Dewangan**  
 Machine Learning | Data Science | End-to-End ML Systems
+
+🔗 GitHub: https://github.com/TanuDewangan
