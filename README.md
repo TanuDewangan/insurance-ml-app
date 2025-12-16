@@ -62,12 +62,12 @@ This project demonstrates a **production-ready ML lifecycle**, from data preproc
 
 ## 🤖 Model Training & Evaluation
 
-### Modeling
+### Modeling and Hyperparameter tuning
 - Linear Regression
+- Ridge / Lasso 
 - Random Forest Regressor
 - **XGBoost Regressor (Final)**
-- Hyperparameter tuning
-- Cross-validation
+- GridSearchCV
 
 ### Final Model Performance
 - **R² Score ≈ 90%**
@@ -77,6 +77,7 @@ This project demonstrates a **production-ready ML lifecycle**, from data preproc
 ### Evaluation Metrics
 - R² Score
 - RMSE
+- MAE
 - Residual Analysis
 - Distribution comparison (Actual vs Predicted)
 
