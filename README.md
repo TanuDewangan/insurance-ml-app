@@ -157,8 +157,8 @@ cd backend
 pip install -r requirements_backend.txt
 uvicorn main:app --reload
 
-### Frontend
-```bash
+Frontend
+
 cd frontend
 pip install -r requirements_frontend.txt
 streamlit run app.py
