@@ -100,18 +100,18 @@ This project demonstrates a **production-ready ML lifecycle**, from data preproc
 insurance-ml-app/
 │
 ├── backend/
-│   ├── main.py
-│   ├── model.pkl
-│   ├── columns.pkl
-│   ├── requirements_backend.txt
+│ ├── main.py
+│ ├── model.pkl
+│ ├── columns.pkl
+│ ├── requirements_backend.txt
 │
 ├── frontend/
-│   ├── app.py
-│   ├── requirements_frontend.txt
+│ ├── app.py
+│ ├── requirements_frontend.txt 
 │
 ├── .github/workflows/
-│   ├── ci.yml
-│   
+│ ├── ci.yml
+│
 ├── README.md
 
 ---
@@ -121,6 +121,7 @@ insurance-ml-app/
 ### API Endpoints
 
 ***POST /predict*** 
+
 Input (JSON):
 
 {
@@ -135,7 +136,7 @@ Input (JSON):
 Output:
 
 {
-  "predicted_charges": 32450.75
+  "predicted_charges": 25959.57
 }
 
 ### Backend Stack
