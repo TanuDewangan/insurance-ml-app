@@ -152,13 +152,29 @@ Git Push → GitHub Actions (CI) → Render Auto Deployment (CD)
 ## 🏁 How to Run Locally
 
 ### Backend
+
 ```bash
 cd backend
 pip install -r requirements_backend.txt
 uvicorn main:app --reload
+```
 
-Frontend
+### Frontend
 
+```bash
 cd frontend
 pip install -r requirements_frontend.txt
-streamlit run app.py
+streamlit run app.py 
+``` 
+
+📈 Future Enhancements
+
+SHAP-based explainability
+
+Authentication & rate limiting
+
+Dockerization
+
+Monitoring & logging
+
+Automated retraining pipelines
