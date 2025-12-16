@@ -1,6 +1,6 @@
 # 💰 Insurance Charges Prediction – End-to-End ML Application
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![XGBoost](https://img.shields.io/badge/Model-XGBoost-success)
 ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-teal)
 ![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red)
@@ -86,8 +86,6 @@ AgeGroup_Senior
 
 ### 🔹 Distribution Comparison
 ![Distribution](screenshots/distribution.png)
-
-*(Add screenshots inside a `/screenshots` folder)*
 
 ---
 
