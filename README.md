@@ -167,14 +167,19 @@ pip install -r requirements_frontend.txt
 streamlit run app.py 
 ``` 
 
-📈 Future Enhancements
+---
 
-SHAP-based explainability
+## 📈 Future Enhancements
 
-Authentication & rate limiting
+- SHAP-based explainability
+- Authentication & rate limiting
+- Dockerization
+- Monitoring & logging
+- Automated retraining pipelines
 
-Dockerization
+---
 
-Monitoring & logging
+## 👤 Author
 
-Automated retraining pipelines
+**Tanu Dewangan**  
+Machine Learning | Data Science | End-to-End ML Systems
