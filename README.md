@@ -39,17 +39,17 @@ This project demonstrates a **production-ready ML lifecycle**, from data preproc
 - `charges`
 
 ### 🔹 Final Feature Set
-age  
-sex  
-bmi  
-children  
-smoker  
-bmi_smoker_numeric  
-region_southeast  
-bmi_category_Normal  
-bmi_category_Overweight  
-bmi_category_Obese  
-AgeGroup_Senior
+- age  
+- sex  
+- bmi  
+- children  
+- smoker  
+- bmi_smoker_numeric  
+- region_southeast  
+- bmi_category_Normal  
+- bmi_category_Overweight  
+- bmi_category_Obese  
+- AgeGroup_Senior
 
 
 ### 🔹 Data Cleaning & Feature Engineering
@@ -95,14 +95,48 @@ AgeGroup_Senior
 
 ---
 
+## 🏗️ Project Architecture
+
+insurance-ml-app/
+│
+├── backend/
+│   ├── main.py
+│   ├── model.pkl
+│   ├── columns.pkl
+│   ├── requirements_backend.txt
+│
+├── frontend/
+│   ├── app.py
+│   ├── requirements_frontend.txt
+│
+├── .github/workflows/
+│   ├── ci.yml
+│   
+├── README.md
+
+---
+
 ## 🧩 Backend – FastAPI
 
 ### API Endpoints
 
-| Method | Endpoint | Description |
-|------|--------|------------|
-| GET | `/` | Health check |
-| POST | `/predict` | Predict insurance charges |
+***POST /predict*** 
+Input (JSON):
+
+{
+  "age": 45,
+  "sex": "male",
+  "bmi": 28.5,
+  "children": 2,
+  "smoker": "yes",
+  "region": "southeast"
+}
+
+Output:
+
+{
+  "predicted_charges": 32450.75
+}
 
 ### Backend Stack
 - FastAPI
